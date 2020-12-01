@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Corley",
+    "slug": "Corley",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "android": {
+      "package": "com.corleycorp.corley"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor":"#7B38C2",
+    "icon": "./assets/corli_logo2.png",
+    "splash": {
+      "image": "./assets/corley_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7B38C2"
+    },
+    "notification":{
+      "icon":"./assets/corli_logo2.png",
+      "color":"#7B38C2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
